@@ -12,7 +12,7 @@ function Main() {
     const submitHandler = (e) => {
         e.preventDefault()
         
-        axios.post(`https://theurl.cf/shrink`, {
+        axios.post(`https://urlshortener-pied.vercel.app/shrink`, {
             original: url
         })
             .then((response) => {
